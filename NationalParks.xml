@@ -2,116 +2,103 @@
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="NationalParks.xsd">
   
-  <NationalPark>
+  <NationalPark Rating="4.8">
     <Name>Yellowstone National Park</Name>
     <Phone>(307) 344-7381</Phone>
     <Phone>(307) 344-2000</Phone>
-    <Address>
+    <Address NearestAirport="Bozeman Yellowstone International Airport">
       <Number>2</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone</City>
       <State>WY</State>
       <Zip>82190</Zip>
-      <NearestAirport airport="BZN">Yellowstone AirPort</NearestAirport>
     </Address>
-    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
-  <NationalPark>
+  <NationalPark Rating="4.8">
     <Name>Grand Canyon National Park</Name>
     <Phone>(928) 638-7888</Phone>
     <Phone>(877) 444-6777</Phone>
-    <Address>
+    <Address NearestAirport="Flagstaff Pulliam Airport">
       <Number>1</Number>
       <Street>South Rim Parkway</Street>
       <City>Grand Canyon</City>
       <State>AZ</State>
       <Zip>86023</Zip>
-      <NearestAirport airport="FLG">Grand Canyon Nation Park Airport</NearestAirport>
     </Address>
-    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
-  <NationalPark>
+  <NationalPark Rating="4.8">
     <Name>Yosemite National Park</Name>
     <Phone>(209) 372-0200</Phone>
     <Phone>(877) 444-6777</Phone>
-    <Address>
+    <Address NearestAirport="Fresno Yosemite International Airport">
       <Number>5083</Number>
       <Street>Wawona Road</Street>
       <City>Yosemite Valley</City>
       <State>CA</State>
       <Zip>95389</Zip>
-      <NearestAirport airport="FAT">Fresno Yosemite International Airport</NearestAirport>
     </Address>
-    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
-  <NationalPark>
+  <NationalPark Rating="4.9">
     <Name>Rocky Mountain National Park</Name>
     <Phone>(970) 586-1206</Phone>
-    <Address>
+    <Address NearestAirport="Denver International Airport">
       <Number>1000</Number>
       <Street>US Highway 36</Street>
       <City>Estes Park</City>
       <State>CO</State>
       <Zip>80517</Zip>
-      <NearestAirport airport="DEN">Denver International Airport</NearestAirport>
     </Address>
-    <Rating scale="5">4.9</Rating>
   </NationalPark>
 
-  <NationalPark>
+  <NationalPark Rating="4.8">
     <Name>Zion National Park</Name>
     <Phone>(435) 772-3256</Phone>
     <Phone>(877) 444-6777</Phone>
-    <Address>
+    <Address NearestAirport="St. George Regional Airport">
       <Number>1</Number>
       <Street>Zion Canyon Scenic Drive</Street>
       <City>Springdale</City>
       <State>UT</State>
       <Zip>84767</Zip>
-      <NearestAirport airport="SGU">St. George Regional Airport</NearestAirport>
     </Address>
-    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
   <NationalPark>
     <Name>Great Smoky Mountains National Park</Name>
     <Phone>(865) 436-1200</Phone>
-    <Address>
+    <Address NearestAirport="McGhee Tyson Airport">
       <Number>107</Number>
       <Street>Park Headquarters Road</Street>
       <City>Gatlinburg</City>
       <State>TN</State>
       <Zip>37738</Zip>
-      <NearestAirport airport="TYS">McGhee Tyson Airport</NearestAirport>
     </Address>
   </NationalPark>
 
   <NationalPark>
     <Name>Acadia National Park</Name>
     <Phone>(207) 288-3338</Phone>
-    <Address>
+    <Address NearestAirport="Hancock County-Bar Harbor Airport">
       <Number>25</Number>
       <Street>Loop Road</Street>
       <City>Bar Harbor</City>
       <State>ME</State>
       <Zip>04609</Zip>
-      <NearestAirport airport="BHB">Hancock Country-Bar Harbor Airport</NearestAirport>
     </Address>
   </NationalPark>
 
   <NationalPark>
     <Name>Great Basin National Park</Name>
     <Phone>(775) 234-7331</Phone>
-    <Address>
+    <Address NearestAirport="Cedar City Regional Airport">
       <Number>100</Number>
       <Street>Great Basin National Park Road</Street>
       <City>Baker</City>
       <State>NV</State>
       <Zip>89311</Zip>
-      <NearestAirport airport="CDC">Cedar City Regional Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -119,26 +106,24 @@
     <Name>Joshua Tree National Park</Name>
     <Phone>(760) 367-5500</Phone>
     <Phone>(760) 366-5577</Phone>
-    <Address>
+    <Address NearestAirport="Palm Springs International Airport">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
       <State>CA</State>
       <Zip>92277</Zip>
-      <NearestAirport airport="PSP">Palm Springs International Airport</NearestAirport>
     </Address>
   </NationalPark>
-
+	
   <NationalPark>
     <Name>Mount Denali National Park</Name>
     <Phone>(907) 683-2294</Phone>
-    <Address>
+    <Address NearestAirport="Denali National Park Airport">
       <Number>1</Number>
       <Street>Denali Park Road</Street>
       <City>Denali Park</City>
       <State>AK</State>
       <Zip>99755</Zip>
-      <NearestAirport airport="DME">Denali National Park Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -146,13 +131,12 @@
     <Name>Olympic National Park</Name>
     <Phone>(360) 565-3130</Phone>
     <Phone>(877) 444-6777</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International Airport">
       <Number>3002</Number>
       <Street>Mount Angeles Road</Street>
       <City>Port Angeles</City>
       <State>WA</State>
       <Zip>98362</Zip>
-      <NearestAirport airport="SEA">Seattle-Tacoma International Airport</NearestAirport>
     </Address>
   </NationalPark>
 
