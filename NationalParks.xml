@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+               xmlns="https://ejsto.github.io/CSE_445_Assignment_4/"
+			   xsi:schemaLocation="https://ejsto.github.io/CSE_445_Assignment_4/ NationalParks.xsd">
   
   <NationalPark Rating="4.8">
     <Name>Yellowstone National Park</Name>
