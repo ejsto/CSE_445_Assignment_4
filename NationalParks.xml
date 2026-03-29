@@ -5,16 +5,16 @@
   <NationalPark>
     <Name>Yellowstone National Park</Name>
     <Phone>(307) 344-7381</Phone>
-	  <Phone>(307) 344-2000</Phone>
+    <Phone>(307) 344-2000</Phone>
     <Address>
       <Number>2</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone</City>
       <State>WY</State>
       <Zip>82190</Zip>
-		<NearestAirport>Yellowstone AirPort</NearestAirport>
+      <NearestAirport airport="BZN">Yellowstone AirPort</NearestAirport>
     </Address>
-	  <Rating scale="5">4.8</Rating>
+    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
   <NationalPark>
@@ -27,9 +27,9 @@
       <City>Grand Canyon</City>
       <State>AZ</State>
       <Zip>86023</Zip>
-	  <NearestAirport>Grand Canyon Nation Park Airport</NearestAirport>
+      <NearestAirport airport="FLG">Grand Canyon Nation Park Airport</NearestAirport>
     </Address>
-	  <Rating scale="5">4.8</Rating>
+    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
   <NationalPark>
@@ -42,9 +42,9 @@
       <City>Yosemite Valley</City>
       <State>CA</State>
       <Zip>95389</Zip>
-	  <NearestAirport>Fresno Yosemite International Airport</NearestAirport>
+      <NearestAirport airport="FAT">Fresno Yosemite International Airport</NearestAirport>
     </Address>
-	  <Rating scale="5">4.8</Rating>
+    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
   <NationalPark>
@@ -56,9 +56,9 @@
       <City>Estes Park</City>
       <State>CO</State>
       <Zip>80517</Zip>
-	  <NearestAirport>Denver International Airport</NearestAirport>
+      <NearestAirport airport="DEN">Denver International Airport</NearestAirport>
     </Address>
-	  <Rating scale="5">4.9</Rating>
+    <Rating scale="5">4.9</Rating>
   </NationalPark>
 
   <NationalPark>
@@ -71,9 +71,9 @@
       <City>Springdale</City>
       <State>UT</State>
       <Zip>84767</Zip>
-	  <NearestAirport>St. George Regional Airport</NearestAirport>
+      <NearestAirport airport="SGU">St. George Regional Airport</NearestAirport>
     </Address>
-	  <Rating scale="5">4.8</Rating>
+    <Rating scale="5">4.8</Rating>
   </NationalPark>
 
   <NationalPark>
@@ -85,7 +85,7 @@
       <City>Gatlinburg</City>
       <State>TN</State>
       <Zip>37738</Zip>
-	  <NearestAirport>McGhee Tyson Airport</NearestAirport>
+      <NearestAirport airport="TYS">McGhee Tyson Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -98,7 +98,7 @@
       <City>Bar Harbor</City>
       <State>ME</State>
       <Zip>04609</Zip>
-	  <NearestAirport>Hancock Country-Bar Harbor Airport</NearestAirport>
+      <NearestAirport airport="BHB">Hancock Country-Bar Harbor Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -111,7 +111,7 @@
       <City>Baker</City>
       <State>NV</State>
       <Zip>89311</Zip>
-	  <NearestAirport>Cedar City Regional Airport</NearestAirport>
+      <NearestAirport airport="CDC">Cedar City Regional Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -125,7 +125,7 @@
       <City>Twentynine Palms</City>
       <State>CA</State>
       <Zip>92277</Zip>
-	  <NearestAirport>Palm Springs International Airport</NearestAirport>
+      <NearestAirport airport="PSP">Palm Springs International Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -138,7 +138,7 @@
       <City>Denali Park</City>
       <State>AK</State>
       <Zip>99755</Zip>
-	  <NearestAirport>Denali National Park Airport</NearestAirport>
+      <NearestAirport airport="DME">Denali National Park Airport</NearestAirport>
     </Address>
   </NationalPark>
 
@@ -152,7 +152,7 @@
       <City>Port Angeles</City>
       <State>WA</State>
       <Zip>98362</Zip>
-	  <NearestAirport>Seattle-Tacoma International Airport</NearestAirport>
+      <NearestAirport airport="SEA">Seattle-Tacoma International Airport</NearestAirport>
     </Address>
   </NationalPark>
 
