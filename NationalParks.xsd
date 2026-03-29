@@ -14,7 +14,7 @@
   <xs:complexType name="NationalParkType">
     <xs:sequence>
       <xs:element name="Name" type="xs:string"/>
-      <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" minOccurs ="1"/>
+      <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
       <xs:element name="Address" type="AddressType"/>
       <xs:element name="Rating" type="RatingType" minOccurs="0"/>
     </xs:sequence>
@@ -28,7 +28,7 @@
       <xs:element name="City" type="xs:string"/>
       <xs:element name="State" type="xs:string"/>
       <xs:element name="Zip" type="xs:string"/>
-      <xs:element name="NearestAirport" type="xs:string"/>
+      <xs:element name="NearestAirport" type="xs:string" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
 
