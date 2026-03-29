@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   
   <!-- Root element: National Parks collection -->
-  <xs:element name="NationalParks">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="NationalPark" type="NationalParkType" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+  <xsd:element name="NationalParks">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="NationalPark" type="NationalParkType" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
 
   <!-- National Park Type -->
-  <xs:complexType name="NationalParkType">
-    <xs:sequence>
-      <xs:element name="Name" type="xs:string"/>
-      <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
-      <xs:element name="Address" type="AddressType"/>
-      <xs:element name="Rating" type="RatingType" minOccurs="0"/>
-    </xs:sequence>
-  </xs:complexType>
+  <xsd:complexType name="NationalParkType">
+    <xsd:sequence>
+      <xsd:element name="Name" type="xsd:string"/>
+      <xsd:element name="Phone" type="PhoneType" maxOccurs="unbounded" minOccurs="1"/>
+      <xsd:element name="Address" type="AddressType"/>
+      <xsd:element name="Rating" type="RatingType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
 
   <!-- Address Type -->
-  <xs:complexType name="AddressType">
-    <xs:sequence>
-      <xs:element name="Number" type="xs:string"/>
-      <xs:element name="Street" type="xs:string"/>
-      <xs:element name="City" type="xs:string"/>
-      <xs:element name="State" type="xs:string"/>
-      <xs:element name="Zip" type="xs:string"/>
-      <xs:element name="NearestAirport" type="AirportType"/>
-    </xs:sequence>
-  </xs:complexType>
+  <xsd:complexType name="AddressType">
+    <xsd:sequence>
+      <xsd:element name="Number" type="xsd:string"/>
+      <xsd:element name="Street" type="xsd:string"/>
+      <xsd:element name="City" type="xsd:string"/>
+      <xsd:element name="State" type="xsd:string"/>
+      <xsd:element name="Zip" type="xsd:string"/>
+      <xsd:element name="NearestAirport" type="AirportType"/>
+    </xsd:sequence>
+  </xsd:complexType>
 
   <!-- Rating Type -->
-  <xs:complexType name="RatingType">
-    <xs:simpleContent>
-      <xs:extension base="xs:decimal">
-        <xs:attribute name="scale" type="xs:string" use="optional"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="RatingType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:decimal">
+        <xsd:attribute name="scale" type="xsd:string" use="optional"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
 	
- <!-- Airport Type -->
- <xs:complexType name="AirportType">
-	<xs:simpleContent>
-		<xs:extension base="xs:string">
-			<xs:attribute name="airport" type="xs:string" use="required"/>
-		</xs:extension>
-	</xs:simpleContent>
- </xs:complexType>
-</xs:schema>
+  <!-- Airport Type -->
+  <xsd:complexType name="AirportType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="airport" type="xsd:string" use="required"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <!-- Phone Type -->	
+  <xsd:simpleType name="PhoneType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\(\d{3}\) \d{3}-\d{4}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>
+
