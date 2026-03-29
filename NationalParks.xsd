@@ -16,29 +16,20 @@
       <xs:element name="Name" type="xs:string"/>
       <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
       <xs:element name="Address" type="AddressType"/>
-      <xs:element name="Rating" type="RatingType" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
 
   <!-- Address Type -->
   <xs:complexType name="AddressType">
     <xs:sequence>
-      <xs:element name="Number" type="xs:int"/>
+      <xs:element name="Number" type="xs:string"/>
       <xs:element name="Street" type="xs:string"/>
       <xs:element name="City" type="xs:string"/>
       <xs:element name="State" type="xs:string"/>
-      <xs:element name="Zip" type="xs:int"/>
-      <xs:element name="NearestAirport" type="xs:string" minOccurs="0"/>
+      <xs:element name="Zip" type="xs:string"/>
     </xs:sequence>
-  </xs:complexType>
-
-  <!-- Rating Type -->
-  <xs:complexType name="RatingType">
-    <xs:simpleContent>
-      <xs:extension base="xs:decimal">
-        <xs:attribute name="scale" type="xs:double" use="optional"/>
-      </xs:extension>
-    </xs:simpleContent>
+    <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
 </xs:schema>
